@@ -1,17 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    // int ano_nascimento, ano_atual, idade_atual, idade_2015;
-    
-    // printf("Informe o ano de nascimento: ");
-    // scanf("%i", &ano_nascimento);
-    
-    // printf("Informe o ano atual: ");
-    // scanf("%i", &ano_atual);
-    
-    // idade_atual = ano_atual - ano_nascimento;
-    // idade_2015 = 2015 - ano_nascimento;
-    
-    // printf("\nA pessoa tem %i anos de idade, e tera %i em 2015\n\n", idade_atual, idade_2015);
+    int numero_1, numero_2, soma;
+
+    printf("Informe o primeiro numero: ");
+    scanf("%i", &numero_1);
+
+    printf("Informe o segundo numero: ");
+    scanf("%i", &numero_2);
+
+    soma = numero_1 + numero_2;
+
+    if (soma > 10) {
+      printf("\n%i + %i = %i\n\n", numero_1, numero_2, soma);
+    } else {
+      printf("\nSoma menor que 10\n\n");
+    }
+
     system("pause");
 }

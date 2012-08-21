@@ -27,5 +27,5 @@ int main() {
 
     printf("\nO valor final do salario sera: %f\n\n", salario_liquido);
 
-    // system("pause");
+    system("pause");
 }

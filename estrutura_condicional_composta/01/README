@@ -1,7 +1,15 @@
 Exercício 1
 
 Dados Inicias:
-
+  - Valor do raio
 Resultados Esperados:
-
+  - área do circulo
 Passos:
+  - Receba o valor do raio  
+  - Se raio > 0
+    - Calcular area do círculo
+      - area = PI * raio * raio
+    - Exibir o resultado da area
+  - Se raio < 0
+    - Mostrar mensagem avisando que raio deve ser maior que 0
+    - Receber novo valor para o raio

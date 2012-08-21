@@ -1,0 +1,16 @@
+Exercício 2
+
+Dados Inicias:
+  - Salário
+  - Tempo de trabalho na empresa
+Resultados Esperados:
+  - Calcular e exibir o valor do bônus do salário baseado no tempo de trabalho na empresa
+Passos:
+  - Receber o salário do funcionário
+  - Receber o tempo em anos de trabalho na empresa
+  - Calcular o bônus
+    - Se tempo >= 5 anos
+      - bonus = salario * 0.2
+    - Se tempo < 5 anos
+      - bonus = salario * 0.1
+  - Exibir o bônus

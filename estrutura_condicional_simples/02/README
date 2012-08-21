@@ -1,0 +1,13 @@
+Exercício 2
+
+Dados Inicias:
+  - Receber número
+Resultados Esperados:
+  - Imprimir uma mensagem caso o número seja par
+Passos:
+  - Receba o número
+  - Verifique se o numero é par
+    - Se numero % 2 == 0
+      - Imprimir uma mensagem dizendo que é par
+    - Se != 0
+      - Imprimir uma mensagem dizendo que não é par

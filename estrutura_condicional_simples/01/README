@@ -1,0 +1,15 @@
+Exercício 1
+
+Dados Inicias:
+  - Receber numero 1 e numero 2
+Resultados Esperados:
+  - Imprimir o resultado se a soma de n1 e n2 for > 10
+Passos:
+  - Informe n1
+  - Informe n2
+  - Calcular Resultado da soma
+    - soma = n1 + n2
+  - Se soma > 10
+    - Imprimir o resultado
+  - Se não
+    - Imprimir "Soma menor que 10"

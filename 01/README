@@ -1,0 +1,18 @@
+Exercício 1
+
+Dados Inicias:
+	- Ano de nascimento
+	- Ano atual
+
+Resultados Esperados:
+	- Idade Atual
+	- Idade em 2015
+
+Passos:
+	- Obter o ano de nascimento
+	- Obter o ano atual
+	- Calcular a idade atual
+		- Idade Atual = ano atual - ano de nascimento
+	- Calcular a idade em 2015
+		- idade em 2015 = 2015 - ano de nascimento
+	- Exibir os resultados

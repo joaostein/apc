@@ -1,0 +1,13 @@
+Exercício 2
+
+Dados Inicias:
+	- Raio da lata
+	- Altura da lata
+Resultado Esperado:
+	- Volume da lata
+Passos:
+	- Receba o raio da lata
+	- Receba a altura da lata
+	- Calcule o volume da lata
+		- Volume = PI * raio * raio * altura
+	- Apresentar o volume na tela

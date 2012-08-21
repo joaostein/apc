@@ -1,0 +1,17 @@
+Exercício 3
+
+Dados Inicias:
+	- Altura do cômodo
+	- Largura do cômodo
+Resultado Esperado:
+	- Área do cômodo
+	- Potência de iluminaçao p/ cômodo
+	
+Passos:
+	- Receba a altura do cômodo
+	- Receba a largura do cômodo
+	- Calcule a área em metros quadrados do cômodo
+		- area = largura * altura
+	- Calcule a potência de iluminaçao
+		- potencia = area * 15
+	- Exiba os resultados

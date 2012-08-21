@@ -1,0 +1,41 @@
+Exercício 7
+
+Dados Inicias:
+  - Valor do salario mínimo
+  - Número de horas trabalhadas
+  - Número de dependetes
+  - Quantidade de horas extras trabalhadas
+Resultado Esperado:
+  - Calcular o valor do salário do funcionário
+Passos:
+  - Receba o valor do salário mínimo
+  - Receba o valor do número de horas trabalhadas
+  - Receba o valor do número de horas extra trabalhadas
+  - Receba o valor do número de dependentes
+  - Calcular valor do salário
+    
+    - Calcular valor do custo de cada hora trabalhada
+      - valor_hora = salario_minimo / 10
+    
+    - Calcular valor do custo de cada hora extra trabalhada
+      - valor_hora_extra = valor_hora * 1.5
+    
+    - Calcular valor do custo total de horas extra trabalhadas
+      - bonus_hora_extra = valor_hora_extra * horas_extra_trabalhadas
+
+    - Calcular valor do salário família baseado na quantidade de dependentes
+      - salario_familia = ( salario_minimo * 0.05 ) * numero_dependentes
+
+    - Calcular valor do salário do mês (baseado apenas na quantidade de horas trabalhadas)
+      - salario_mes = horas_trabalhadas * valor_hora
+
+    - Calcular valor do salário bruto
+      - salario_bruto = salario_mes + salario_familia + bonus_hora_extra
+
+    - Calcular valor do imposto de renda (IRRF)
+      - imposto = salario_bruto * 0.1 
+
+    - Calcular valor do salário líquido
+      - salario_liquido = salario_bruto - imposto
+  - Retornar o resultado do valor do salário líquido do funcionário
+

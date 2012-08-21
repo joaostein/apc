@@ -1,0 +1,16 @@
+Exercício 5
+
+Dados Inicias:
+	- Valor constante da aplicaçao
+	- Taxa
+	- Número de meses
+Resultado Esperado:
+	- O rendimento na quantidade de meses informado
+Passos:
+	- Informe valor constante da aplicaçao
+	- Informe a taxa
+	- Informe o numero de meses da aplicaçao
+	- Calcule o rendimento
+		- P * (((1 + i)n – 1) / i), onde i = taxa; P = aplicação mensal; n =
+número de meses
+	- Exiba o resultado

@@ -1,0 +1,17 @@
+Exercício 6
+
+Dados Inicias:
+  - Quantidade de segundos
+Resultado Esperado:
+  - O valor convertido dos segundos em horas, minutos e segundos
+Passos:
+  - Receba o valor de quantos segundos deseja calcular
+  - Calcule a quantidade de minutos que existem nesses segundos
+    - minutos = segundos / 60
+  - Pegue o resto da divisao e atribua a segundos
+  - Com a quantidade de minutos, calcule quantas horas existem
+    - horas = minutos / 60
+  - Pegue o resto da divisão e atribua a segundos
+  - Informe quantas horas, minutos e segundos tem na quantidade de segundos desejado
+
+

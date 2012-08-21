@@ -1,0 +1,12 @@
+Exercício 4
+
+Dados Inicias:
+	- Angulo em graus
+Resultado Esperado:
+	- Seno, co-seno e tangente do angulo
+Passos:
+	- Receber o valor do angulo em graus
+	- Transformar o angulo de graus p/ radianos
+		- angulo = ( pi * angulo ) / 180
+	- Calcular seno, co-seno e tangente de angulo
+	- Exibir resultado

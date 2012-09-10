@@ -1,0 +1,21 @@
+Exercício 08
+
+Dados Iniciais:
+  - Receber um ano
+
+Resultado Esperado:
+  - Identificar se o ano é bissexto ou não
+
+Passos:
+  - Receber ano
+
+  - Se ano > 0
+
+    - Se ( mod(ano / 400) == 0 ) || ( mod(ano / 4) == 0 && mod(ano / 100) != 0)
+      - Imprimir Ano bissexto
+    - Else
+      - Imprimir Não é bissexto
+
+  - Else
+    - Imprimir não é um ano válido
+

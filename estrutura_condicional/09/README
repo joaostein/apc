@@ -1,0 +1,25 @@
+Exercício 09
+
+Dados Iniciais:
+  - Receber valor de X
+
+Resultado Esperado:
+  - Calcular valor de f(x) baseado no valor de X
+
+Passos:
+  - Receber o valor de X
+
+  - Se x > 0 && x <=1
+    - f(x) = 1
+
+  - Se nao se x > 1 && x <= 2
+    - f(x) = 2
+
+  - Se nao se x > 2 && x <= 3
+    - f(x) = x * x
+
+  - se nao se x > 3
+    - f(x) = x * x * x
+
+  - Else
+    - Impossível calcular f(x)

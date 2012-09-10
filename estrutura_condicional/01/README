@@ -1,10 +1,16 @@
 Exercício 01
 
 Dados Iniciais:
-  -
+  - Base do triângulo
+  - Altura do triângulo
 
 Resultado Esperado:
-  -
+  - Calcular a área do triângulo
 
 Passos:
-  -
+  - Receba o valor da base
+  - Receba o valor da altura
+    - Se o valor de um ou outro for negativo, imprimir uma mensagem adequada
+    - Se não, calcular valor da área
+      - Area = ( base * altura ) / 2
+  - Mostrar o valor da área do triângulo

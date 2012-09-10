@@ -1,0 +1,41 @@
+Exercício 07
+
+Dados Iniciais:
+  - Receber lado 1
+  - Receber lado 2
+  - Receber lado 3
+
+Resultado Esperado:
+  - Verificar se os 3 lados formam um triangulo, e dizer qual tipo (equilatero, isosceles ou escaleno)
+
+Passos:
+  - Receber l1
+  - Receber l2
+  - Receber l3
+
+  - Verificar se lados sao positivos e maiores que zero
+    - Se l1 <= 0 || l2 <= 0 || l3 <= 0
+      - Nao forma um triangulo
+
+    - Else
+      - Verificar lados
+        - Se |l2 - l3| < l1 && l1 < ( l2 + l3 )
+          - Se |l1 - l3| < l2 && l2 < ( l1 + l3 )
+            - Se |l1 - l2| < l3 && l3 < ( l1 + l2 )
+
+              - Se ( l1 == l2 && l1 == l3 )
+                - Triangulo equilatero
+              - Se nao se ( l1 == l2 && l1 != l3 )
+                - Triangulo Isoceles
+              - Else
+                - Triangulo escaleno
+
+            - else
+              - Nao forma um triangulo
+          - else
+            - Nao forma um triangulo
+        - else
+          - Não forma um triangulo
+
+
+

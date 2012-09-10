@@ -1,0 +1,19 @@
+Exercício 02
+
+Dados Iniciais:
+  - Nota avaliação 01
+  - Nota avaliação 02
+
+Resultado Esperado:
+  - Calcular a média final baseado nas notas 1 e 2 e informar se foi aprovado ou repovado.
+
+Passos:
+  - Receber n1
+  - Receber n2
+  - Calcular a média de n1 e n2
+    - ( n1 + n2 ) / 2
+  - Se a media >= 5
+    - Aprovado
+  - Se não
+    - Reprovado
+  - Informar uma mensagem com a media final e se foi aprovado ou reprovado

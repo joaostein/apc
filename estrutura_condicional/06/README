@@ -1,0 +1,26 @@
+Exercício 06
+
+Dados Iniciais:
+  - Informar valor da mercadoria
+  - Informar modo de pagamento
+  - Numero de prestaçoes
+
+Resultado Esperado:
+  - De acordo com o modo de pagamento, calcular o valor de cada parcela (caso seja a prazo) ou o valor total com desconto (caso seja a vista)
+
+Passos:
+  - Receber o valor da mercadoria
+  - Receber o modo de pagamento
+  
+  - Se modo == "p" || modo == "P"
+    - Receber o numero de prestacoes
+    - valorFinal = valor da mercadoria * 1.1
+    - valorParcela = valorFinal / numero de prestacoes
+    - Imprimir valor de cada parcela
+  
+  - Se nao se modo == "v" || modo == "V"
+    - valorFinal = valor da mercadoria * 0.95
+    - Imprimir valor final a vista
+  
+  - Else
+    - Modo de pagamento invalido

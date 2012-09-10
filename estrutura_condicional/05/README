@@ -1,0 +1,37 @@
+Exercício 05
+
+Dados Iniciais:
+  - Receber dia
+  - Receber mes
+  - receber ano
+
+Resultado Esperado:
+  - Verificar se os três numeros juntos formam uma data válida
+
+Passos:
+  - Informe o dia
+  - Informe o mes
+  - Informe o ano
+
+  - Se dia <= 0 || mes <= 0 || ano <= 0
+    - Data inválida
+  
+  - else
+    - Se dia > 31 || mes > 12
+      - Data Inválida
+    
+    - else    
+      - Se mes == 4 || mes == 6  || mes == 9 || mes == 11
+        - Se dia > 30
+          - Data Inválida
+        - else
+          - Data Válida
+      
+      - Se nao se mes == 2
+        - Se dia > 28
+          - Data Inválida
+        - else
+          - Data Válida
+
+      - else
+        - Data Válida

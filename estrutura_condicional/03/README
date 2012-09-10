@@ -1,0 +1,21 @@
+Exercício 02
+
+Dados Iniciais:
+  - Receber coeficiente a
+  - Receber coeficiente b
+  - Receber coeficiente c
+
+Resultado Esperado:
+  - Calcular as raízes de uma equação do segundo grau
+
+Passos:
+  - Receber coeficiente a
+  - Receber coeficiente b
+  - Receber coeficiente c
+  - Calcular o delta
+    - raiz de (b * b) - 4 * a * c
+  - Calcular x1
+    - x1 = ( -b + delta ) / ( 2 * a )
+  - Calcular x2
+    - x2 = ( -b - delta ) / ( 2 * a )
+  - Mostrar o valor de x1 e x2

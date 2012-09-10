@@ -1,0 +1,21 @@
+Exercício 04
+
+Dados Iniciais:
+  - Altura de um homem
+  - Peso de um homem
+
+Resultado Esperado:
+  - Calcular o peso ideal baseado na altura informada e dizer se o peso informado está abaixo, acima ou igual ao peso ideal
+
+Passos:
+  - Receber altura
+  - Receber o peso
+  - Calcular o peso ideal
+    - pesoIdeal = ( 72.7 * altura ) - 58
+  - Comparar peso informado com peso ideal e informar mensagem adequada para cada caso
+    - Se peso = pesoIdeal
+      - Mensagem dizendo que está com o peso ideal
+    - Se não se peso > pesoIdeal
+      - Mensagem dizendo que está acima do peso ideal
+    - Se não
+      - Mensagem dizendo que está com o peso abaixo do ideal

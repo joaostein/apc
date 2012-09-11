@@ -1,8 +1,13 @@
 Exercício 1
 
 Dados Inicias:
-  - 
+  - Valor de N
 Resultados Esperados:
-  - 
+  - Calcular e exibir a soma dos N primeiros numeros inteiros maires que zero
 Passos:
-  - 
+  - Receber valor de N
+  - Calcular a soma dos N numeros maiores que zero
+    - Soma = 0
+    - Para Contador = 1, com Contador <= N, Contador++
+      - Soma += Contador
+  - Imprimir o valor de soma

@@ -1,0 +1,19 @@
+Exercício 02
+
+Dados Inicias:
+  - N = 30
+Resultados Esperados:
+  - Escrever a sequencia de Fibonacci até o trigésimo termo
+Passos:
+  - Imprimir sequencia:
+    - anterior1 = 1
+    - anterior2 = 0
+
+    - Para i = 0, com i < n, com i++
+      - Se i == 0
+        - Imprimir 1
+      - Else
+        - atual = anterior1 + anterior2
+        - Imprimir o numero atual
+        - anterior2 = anterior1
+        - anterior1 = atual

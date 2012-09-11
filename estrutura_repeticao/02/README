@@ -1,0 +1,14 @@
+Exercício 02
+
+Dados Inicias:
+  - Valor de N
+Resultados Esperados:
+  - Calcular e exibir a soma de N numeros inteiros
+Passos:
+  - Receber valor de N
+  - Receber o valor de N numeros inteiros
+    - Soma = 0
+    - Para Contador = 1, com Contador <= N, Contador++
+      - Receber valor do numero N_Contador
+      - Soma += N_contador
+  - Imprimir o valor da soma 

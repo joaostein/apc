@@ -1,0 +1,9 @@
+Exercício 02
+
+Dados Inicias:
+  - i = 1050, parada = 2400
+Resultados Esperados:
+  - Exibir todos os numeros inteirios >= 1050 && <= 2400 divisiveis por 4
+Passos:
+  - Para i, i % 4 == 0 && i < parada, i++
+    - Imprimir i

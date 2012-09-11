@@ -1,0 +1,15 @@
+Exercício 06
+
+Dados Inicias:
+  - n = 64
+Resultados Esperados:
+  - Calcular o numero de grãos que o rei deve ao sábio
+Passos:
+  - total = 1
+  - Para i, com i < n, i++
+    - total += ( i * 2 )
+  - Imprimir o total de graos
+
+
+
+

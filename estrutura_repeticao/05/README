@@ -1,8 +1,32 @@
 Exercício 05
 
 Dados Inicias:
-  - 
+  - n1 e n2
 Resultados Esperados:
-  - 
+  - Calcular o máximo divisor comum
 Passos:
-  - 
+  - Receber n1
+  - Receber n2
+  - Se n1 <= 0 || n2 <= 0
+    - Mensagem de erro
+  - Else
+    - Calcular maximo divisor comun
+      
+      - Se n2 > n1
+        - maior = n2
+        - menor = n1
+      - else
+        - maior = n1
+        - menor = n2
+
+      resto = maior % menor
+
+      Enquanto ( resto > 0)
+        resto = menor % resto
+
+      - Imprimir o maior
+      
+
+
+
+

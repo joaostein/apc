@@ -15,7 +15,6 @@ void dolarToReal(float dolar) {
   printf("\n\t%.2f dólares = %.2f reais.\n\n", dolar, real);
 }
 
-
 int main() {
 
   int opcao;

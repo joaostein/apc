@@ -1,4 +1,4 @@
-# Exercício 01
+# Exercício 01 - Strings
 
   Faça um programa em C que leia um determinado caractere `ch` um inteiro `n` e inicialize uma string com `n` vezes o caractere `ch`.
 
